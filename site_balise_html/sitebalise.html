@@ -118,13 +118,17 @@
             </tr>
             <tr>
                 <td>target</td>
-                <td>Cet attribut spécifie comment le lien doit être ouvert lorsqu'il est cliqué. Les valeurs courantes pour cet attribut sont _blank (ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet), _self (ouvre le lien dans la même fenêtre ou le même onglet), _parent (ouvre le lien dans le cadre parent, utilisé dans les cadres) et _top (ouvre le lien dans la fenêtre complète, annulant les cadres).</td>
+                <td>Cet attribut spécifie comment le lien doit être ouvert lorsqu'il est cliqué. Les valeurs courantes
+                    pour cet attribut sont _blank (ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet), _self
+                    (ouvre le lien dans la même fenêtre ou le même onglet), _parent (ouvre le lien dans le cadre parent,
+                    utilisé dans les cadres) et _top (ouvre le lien dans la fenêtre complète, annulant les cadres).</td>
                 <td> &lt;a target="_blank|_self|_parent|_top|framename"&gt;</td>
             </tr>
             <tr>
                 <td id="title">title</td>
-                <td>Cet attribut fournit un texte supplémentaire (info-bulle) qui apparaît lorsque vous survolez le lien avec la souris.</td>
-                <td>&lt;a title="World Health Organization">WHO&lt;/a></td>
+                <td>Cet attribut fournit un texte supplémentaire (info-bulle) qui apparaît lorsque vous survolez le lien
+                    avec la souris.</td>
+                <td>&lt;a title="World Health Organization">WHO&lt;/a&gt;</td>
             </tr>
 
 
@@ -133,17 +137,18 @@
         <h2>exemple</h2>
         <div class="large">
             <div class="codes">
-            &lt;a href="https://example.com">Website&lt;/a>          
+                &lt;a href="https://example.com">Website &lt;/a&gt;
             </div>
 
             <div class="codes">
-            <a href="https://www.perdu.com">exemple</a>
+                <a href="https://www.perdu.com">exemple</a>
             </div>
         </div>
 
         <H2 id="abbr"> &lt;abbr&gt; </H2>
 
-        <p>Pour une abréviation. Son attribut "title" ne doit être utilisé que pour l'extension de l'abréviation et rien d'autre.</p>
+        <p>Pour une abréviation. Son attribut "title" ne doit être utilisé que pour l'extension de l'abréviation et rien
+            d'autre.</p>
         <table>
 
             <caption>Attributs</caption>
@@ -152,22 +157,25 @@
                 <td>description</td>
                 <td>valeurs(exemple)</td>
             </tr>
-            <tr>
-                <td>title</td>
-                <td> <a href="#title"> voir "title" </a></td>
-            </tr>
+
             <tr>
                 <td>lang</td>
-                <td>Cet attribut spécifie la langue de l'abréviation ou de l'acronyme. Il est utilisé pour les sites multilingues où différentes versions de l'abréviation peuvent être fournies pour chaque langue.</td>
+                <td>Cet attribut spécifie la langue de l'abréviation ou de l'acronyme. Il est utilisé pour les sites
+                    multilingues où différentes versions de l'abréviation peuvent être fournies pour chaque langue.</td>
                 <td>&lt;abbr title="World Wide Web" lang="en">WWW &lt;/abbr></td>
             </tr>
-<tr>
+            <tr>
                 <td id="class/id">classs/id</td>
-                <td>Ces attributs permettent de définir des classes ou des identifiants CSS pour la balise <abbr>, ce qui permet de styliser l'abréviation avec du CSS ou de la cibler avec du JavaScript.</td>
+                <td>Ces attributs permettent de définir des classes ou des identifiants CSS pour la balise &lt;abbr&gt;,
+                    ce qui permet de styliser l'abréviation avec du CSS ou de la cibler avec du JavaScript.</td>
                 <td> &lt;abbr id="abbr">tests&lt;abbr></td>
             </tr>
 
-
+            <tr>
+                <td>title</td>
+                <td> <a href="#title"> voir "title" </a></td>
+                <td></td>
+            </tr>
         </table>
 
         <h2>exemple</h2>
@@ -183,11 +191,16 @@
 
         <H2 id="acronym"> &lt;acronym&gt; </H2>
 
-        acronym est une balise non utilisé        
+        acronym est une balise non utilisé
 
         <H2 id="address"> &lt;address&gt; </H2>
 
-        <p>Généralement utilisée dans le conteneur &ltfooter>, cette balise est utilisée à la place de la balise &lt;p>, les informations nécessaires pour contacter la ou les auteurs du document cité. Cela peut-être son nom ou un label suivi de son adresse email par-exemple ou adresse postale. Confusion possible : on utilisera la balise &lt;p> pour donner l'adresse postale d'une entreprise sans relation avec l'auteur du document s'y rapportant.</p>
+        <p>Généralement utilisée dans le conteneur &lt;footer&gt;, cette balise est utilisée à la place de la balise
+            &lt;p&gt;,
+            les informations nécessaires pour contacter la ou les auteurs du document cité. Cela peut-être son nom ou un
+            label suivi de son adresse email par-exemple ou adresse postale. Confusion possible : on utilisera la balise
+            &lt;p> pour donner l'adresse postale d'une entreprise sans relation avec l'auteur du document s'y
+            rapportant.</p>
         <table>
 
             <caption>Attributs</caption>
@@ -197,15 +210,19 @@
                 <td>valeurs(exemple)</td>
             </tr>
             <tr>
-                <td><a href="#class/id"> voir "class/id" </a></td>
+                <td><a href="#class/id">voir "class/id" </a></td>
+                <td></td>
+                <td></td>
             </tr>
             <tr>
                 <td><a href="#title"> voir "title" </a></td>
-
+                <td></td>
+                <td></td>
             </tr>
-<tr>
+            <tr>
                 <td>href</td>
-                <td> Cet attribut est parfois utilisé pour transformer la balise &ltaddress&gt en un lien cliquable qui redirige vers une page de contact ou une carte</td>
+                <td> Cet attribut est parfois utilisé pour transformer la balise &lt;address&gt; en un lien cliquable
+                    qui redirige vers une page de contact ou une carte</td>
                 <td>&lt;address&gt;&lt;a href="contact.html"&gt;Contactez-nous&lt;/a&gt;</td>
             </tr>
 
@@ -216,16 +233,16 @@
         <div class="large">
             <div class="codes">
                 &lt;address&gt;
-                    &lt;a href="mailto:jim@rock.com"&gt; jim@rock.com&lt;/a&gt;&lt;
-                    &lt;a href="tel:+13115552368"&gt;(311) 555-2368 &lt;/a&gt;
-                    &lt;/address&gt;    
+                &lt;a href="mailto:jim@rock.com"&gt; jim@rock.com&lt;/a&gt;&lt;
+                &lt;a href="tel:+13115552368"&gt;(311) 555-2368 &lt;/a&gt;
+                &lt;/address&gt;
             </div>
 
             <div class="codes">
                 <address>
                     <a href="mailto:jim@rock.com">jim@rock.com</a><br>
                     <a href="tel:+13115552368">(311) 555-2368</a>
-                  </address>
+                </address>
             </div>
         </div>
 
@@ -250,7 +267,7 @@
                 <td></td>
                 <td></td>
             </tr>
-<tr>
+            <tr>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -291,7 +308,7 @@
                 <td></td>
                 <td></td>
             </tr>
-<tr>
+            <tr>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -332,7 +349,7 @@
                 <td></td>
                 <td></td>
             </tr>
-<tr>
+            <tr>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -373,7 +390,7 @@
                 <td></td>
                 <td></td>
             </tr>
-<tr>
+            <tr>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -397,5 +414,3 @@
     <footer>
         <hr>
     </footer>
-
-    
