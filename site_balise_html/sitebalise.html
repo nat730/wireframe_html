@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>pierre</title>
+    <link rel="stylesheet" href="sitebalise.css">
+
+</head>
+
+<body>
+    <div class="barre_laterale">
+        <a href="#commentaire">&lt;!--...--&gt;</a>
+        <a href="#doctype">&lt;!doctype&gt;</a>
+        <a href="#a">&lt;a&gt;</a>
+        <a href="#abbr">&lt;abbr&gt;</a>
+        <a href="#acronym">&lt;acronym&gt;</a>
+        <a href="#address">&lt;address&gt;</a>
+        <a href="#applet">&lt;applet&gt;</a>
+        <a href="#area">&lt;area&gt;</a>
+        <a href="#article">&lt;article&gt;</a>
+        <a href="#aside">&lt;aside&gt;</a>
+        <a href="#audio">&lt;audio&gt;</a>
+        <a href="#b">&lt;b&gt;</a>
+        <a href="#base">&lt;base&gt;</a>
+        <a href="#basefont">&lt;basefont&gt;</a>
+        <a href="#bdo">&lt;bdo&gt;</a>
+        <a href="#bdi">&lt;bdi&gt;</a>
+        <a href="#big">&lt;big&gt;</a>
+        <a href="#blockquote">&lt;blockquote&gt;</a>
+        <a href="#body">&lt;body&gt;</a>
+        <a href="#br">&lt;br&gt;</a>
+        <a href="#button">&lt;button&gt;</a>
+        <a href="#canvas">&lt;canvas&gt;</a>
+        <a href="#caption">&lt;caption&gt;</a>
+        <a href="#center">&lt;center&gt;</a>
+        <a href="#cite">&lt;cite&gt;</a>
+        <a href="#code">&lt;code&gt;</a>
+        <a href="#col">&lt;col&gt;</a>
+        <a href="#colgroup">&lt;colgroup&gt;</a>
+        <a href="#command">&lt;command&gt;</a>
+        <a href="#datalist">&lt;datalist&gt;</a>
+        <a href="#dd">&lt;dd&gt;</a>
+        <a href="#del">&lt;del&gt;</a>
+        <a href="#details">&lt;details&gt;</a>
+        <a href="#dfn">&lt;dfn&gt;</a>
+        <a href="#dir">&lt;dir&gt;</a>
+        <a href="#div">&lt;div&gt;</a>
+        <a href="#dl">&lt;dl&gt;</a>
+        <a href="#dt">&lt;dt&gt;</a>
+        <a href="#em">&lt;em&gt;</a>
+        <a href="#embed">&lt;embed&gt;</a>
+        <a href="#fieldset">&lt;fieldset&gt;</a>
+        <a href="#figcaption">&lt;figcaption&gt;</a>
+        <a href="#figure">&lt;figure&gt;</a>
+        <a href="#font">&lt;font&gt;</a>
+        <a href="#footer">&lt;footer&gt;</a>
+        <a href="#form">&lt;;form&gt;;</a>
+        <a href="#frame">&lt;frame&gt;</a>
+        <a href="#frameset">&lt;frameset&gt;</a>
+        <a href="#H">&lt;h1&gt; a &lt;h6&gt;</a>
+        <a href="#head">&lt;head&gt;</a>
+        <a href="#header">&lt;header&gt;</a>
+        <a href="#hgroup">&lt;hgroup&gt;</a>
+        <a href="#hr">&lt;hr&gt;</a>
+    </div>
+
+    <section class="texte">
+
+        <H2 id="commentaire"> &lt;!--...--&gt; </H2>
+        <p>Pour un commentaire</p>
+
+        <h2>exemple</h2>
+        <div class="large">
+            <div class="codes">
+                &lt;!-- Je suis un commentaire ! --&gt;
+            </div>
+            <div class="codes">
+                <p>le résultat étant invisible je met cette information a la place</p>
+            </div>
+        </div>
+
+
+        <H2 id="doctype"> &lt;!doctype&gt; </H2>
+
+        <p>L'inclusion du DOCTYPE dans un document HTML assure que le navigateur interprétera la version HTML ainsi
+            déclarée.
+            En HTML5 le doctype à déclarer est : &lt;!DOCTYPE htmlL'inclusion du DOCTYPE dans un document HTML assure
+            que le navigateur interprétera la version HTML ainsi déclarée.
+            En HTML5 le doctype à déclarer est : &lt;!DOCTYPE html..&gt; </p>
+
+        <h2>exemple</h2>
+        <div class="large">
+            <div class="codes">
+                &lt;!DOCTYPE html&gt;
+            </div>
+
+            <div class="codes">
+                le résultat étant invisible je met cette information a la place
+            </div>
+        </div>
+
+        <H2 id="a"> &lt;a&gt; </H2>
+
+        <p>Utilisée pour les hyperliens. Attention : l'attribut "name" n'existe plus pour les liens.</p>
+        <table>
+
+            <caption>Attributs</caption>
+            <tr>
+                <td>nom</td>
+                <td>description</td>
+                <td>valeurs(exemple)</td>
+            </tr>
+            <tr>
+                <td>href</td>
+                <td>Cet attribut spécifie l'URL de destination vers laquelle le lien doit pointer.</td>
+                <td> &lt;a href="example"&gt;Lien vers Example&lt;/a&gt;.</td>
+            </tr>
+            <tr>
+                <td>target</td>
+                <td>Cet attribut spécifie comment le lien doit être ouvert lorsqu'il est cliqué. Les valeurs courantes pour cet attribut sont _blank (ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet), _self (ouvre le lien dans la même fenêtre ou le même onglet), _parent (ouvre le lien dans le cadre parent, utilisé dans les cadres) et _top (ouvre le lien dans la fenêtre complète, annulant les cadres).</td>
+                <td> &lt;a target="_blank|_self|_parent|_top|framename"&gt;</td>
+            </tr>
+            <tr>
+                <td id="title">title</td>
+                <td>Cet attribut fournit un texte supplémentaire (info-bulle) qui apparaît lorsque vous survolez le lien avec la souris.</td>
+                <td>&lt;a title="World Health Organization">WHO&lt;/a></td>
+            </tr>
+
+
+        </table>
+
+        <h2>exemple</h2>
+        <div class="large">
+            <div class="codes">
+            &lt;a href="https://example.com">Website&lt;/a>          
+            </div>
+
+            <div class="codes">
+            <a href="https://www.perdu.com">exemple</a>
+            </div>
+        </div>
+
+        <H2 id="abbr"> &lt;abbr&gt; </H2>
+
+        <p>Pour une abréviation. Son attribut "title" ne doit être utilisé que pour l'extension de l'abréviation et rien d'autre.</p>
+        <table>
+
+            <caption>Attributs</caption>
+            <tr>
+                <td>nom</td>
+                <td>description</td>
+                <td>valeurs(exemple)</td>
+            </tr>
+            <tr>
+                <td>title</td>
+                <td> <a href="#title"> voir "title" </a></td>
+            </tr>
+            <tr>
+                <td>lang</td>
+                <td>Cet attribut spécifie la langue de l'abréviation ou de l'acronyme. Il est utilisé pour les sites multilingues où différentes versions de l'abréviation peuvent être fournies pour chaque langue.</td>
+                <td>&lt;abbr title="World Wide Web" lang="en">WWW &lt;/abbr></td>
+            </tr>
+<tr>
+                <td id="class/id">classs/id</td>
+                <td>Ces attributs permettent de définir des classes ou des identifiants CSS pour la balise <abbr>, ce qui permet de styliser l'abréviation avec du CSS ou de la cibler avec du JavaScript.</td>
+                <td> &lt;abbr id="abbr">tests&lt;abbr></td>
+            </tr>
+
+
+        </table>
+
+        <h2>exemple</h2>
+        <div class="large">
+            <div class="codes">
+                &lt;abbr title="Hypertext Markup Language">HTML&lt;/abbr> est un language interessant
+            </div>
+
+            <div class="codes">
+                <abbr title="Hypertext Markup Language">HTML</abbr> est un language interessant
+            </div>
+        </div>
+
+        <H2 id="acronym"> &lt;acronym&gt; </H2>
+
+        acronym est une balise non utilisé        
+
+        <H2 id="address"> &lt;address&gt; </H2>
+
+        <p>Généralement utilisée dans le conteneur &ltfooter>, cette balise est utilisée à la place de la balise &lt;p>, les informations nécessaires pour contacter la ou les auteurs du document cité. Cela peut-être son nom ou un label suivi de son adresse email par-exemple ou adresse postale. Confusion possible : on utilisera la balise &lt;p> pour donner l'adresse postale d'une entreprise sans relation avec l'auteur du document s'y rapportant.</p>
+        <table>
+
+            <caption>Attributs</caption>
+            <tr>
+                <td>nom</td>
+                <td>description</td>
+                <td>valeurs(exemple)</td>
+            </tr>
+            <tr>
+                <td><a href="#class/id"> voir "class/id" </a></td>
+            </tr>
+            <tr>
+                <td><a href="#title"> voir "title" </a></td>
+
+            </tr>
+<tr>
+                <td>href</td>
+                <td> Cet attribut est parfois utilisé pour transformer la balise &ltaddress&gt en un lien cliquable qui redirige vers une page de contact ou une carte</td>
+                <td>&lt;address&gt;&lt;a href="contact.html"&gt;Contactez-nous&lt;/a&gt;</td>
+            </tr>
+
+
+        </table>
+
+        <h2>exemple</h2>
+        <div class="large">
+            <div class="codes">
+                &lt;address&gt;
+                    &lt;a href="mailto:jim@rock.com"&gt; jim@rock.com&lt;/a&gt;&lt;
+                    &lt;a href="tel:+13115552368"&gt;(311) 555-2368 &lt;/a&gt;
+                    &lt;/address&gt;    
+            </div>
+
+            <div class="codes">
+                <address>
+                    <a href="mailto:jim@rock.com">jim@rock.com</a><br>
+                    <a href="tel:+13115552368">(311) 555-2368</a>
+                  </address>
+            </div>
+        </div>
+
+        <H2 id="applet"> &lt;applet&gt; </H2>
+
+        <p>Pour un commentaire</p>
+        <table>
+
+            <caption>Attributs</caption>
+            <tr>
+                <td>nom</td>
+                <td>description</td>
+                <td>valeurs(exemple)</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+<tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+
+        </table>
+
+        <h2>exemple</h2>
+        <div class="large">
+            <div class="codes">
+                mettre le code ici
+            </div>
+
+            <div class="codes">
+                mettre le resultat ici
+            </div>
+        </div>
+
+        <H2 id="area"> &lt;area&gt; </H2>
+
+        <p>Pour un commentaire</p>
+        <table>
+
+            <caption>Attributs</caption>
+            <tr>
+                <td>nom</td>
+                <td>description</td>
+                <td>valeurs(exemple)</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+<tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+
+        </table>
+
+        <h2>exemple</h2>
+        <div class="large">
+            <div class="codes">
+                mettre le code ici
+            </div>
+
+            <div class="codes">
+                mettre le resultat ici
+            </div>
+        </div>
+
+        <H2 id="article"> &lt;article&gt; </H2>
+
+        <p>Pour un commentaire</p>
+        <table>
+
+            <caption>Attributs</caption>
+            <tr>
+                <td>nom</td>
+                <td>description</td>
+                <td>valeurs(exemple)</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+<tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+
+        </table>
+
+        <h2>exemple</h2>
+        <div class="large">
+            <div class="codes">
+                mettre le code ici
+            </div>
+
+            <div class="codes">
+                mettre le resultat ici
+            </div>
+        </div>
+
+        <H2 id="audio"> &lt;audio&gt; </H2>
+
+        <p>Pour un commentaire</p>
+        <table>
+
+            <caption>Attributs</caption>
+            <tr>
+                <td>nom</td>
+                <td>description</td>
+                <td>valeurs(exemple)</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+<tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+
+        </table>
+
+        <h2>exemple</h2>
+        <div class="large">
+            <div class="codes">
+                mettre le code ici
+            </div>
+
+            <div class="codes">
+                mettre le resultat ici
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <hr>
+    </footer>
+
+    
